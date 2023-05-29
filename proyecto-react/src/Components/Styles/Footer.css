@@ -6,20 +6,24 @@
 }
 
 body{
-  background-color: rgb(76, 172, 201)
+  background-color: #ADD9D1;
 }
 
 footer{
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color:#027373;
 }
+
+
 
 .footer-social-media{
   text-align: center;
 }
 
 .footer-social-media img{
-  width: 5%;
+  width: 4%;
+  padding-top: 4px;
 }
 
 .footer-lista-horizontal {

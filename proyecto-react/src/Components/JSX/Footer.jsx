@@ -1,9 +1,12 @@
 import imagenes from "../Images/Imagenes.jsx";
+import "../Styles/Footer.css"
+
 export const Footer = () => {
 
   return (
 
       <footer>
+
         <nav className='footer-social-media'>
 
            <a href="#" target="_blank" rel="external"/><img src={imagenes.icogh} alt="GitHub icon"
@@ -20,6 +23,7 @@ export const Footer = () => {
 
         </nav>
 
+        
         <figure className='footer-lista-horizontal'>
           <img src={imagenes.icocard1} alt="Method: Paypal" title="Tarjeta Paypal"/>
           <img src={imagenes.icocard2} alt="Method: Mastercard" title="Tarjeta Mastercard"/>

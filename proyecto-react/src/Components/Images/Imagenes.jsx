@@ -2,6 +2,12 @@ const imagenes = {};
 
 // Agregar imágenes
 
+
+import producto1 from './prueba1.jpg';
+imagenes.producto1 = producto1;
+
+// skdjksajdskad
+
 import icogh from './ico-github.svg';
 imagenes.icogh = icogh;
 
