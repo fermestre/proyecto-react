@@ -16,7 +16,7 @@ imagenes.icotw = icotw
 
 // Social media (up)
 
-import icocard1 from './footer-visa.svg'
+import icocard1 from './footer-paypal.svg'
 imagenes.icocard1 = icocard1
 
 import icocard2 from './footer-mastercard.svg'
@@ -31,8 +31,29 @@ imagenes.icocard4 = icocard4
 import icocard5 from './footer-diners.svg'
 imagenes.icocard5 = icocard5
 
-import icocard6 from './footer-paypal.svg'
+import icocard6 from './footer-visa.svg'
 imagenes.icocard6 = icocard6
+
+import icocard7 from './footer-mercadopago.svg'
+imagenes.icocard7 = icocard7
+
+import icocard8 from './footer-jcb.svg'
+imagenes.icocard8 = icocard8
+
+import icocard9 from './footer-alipay.svg'
+imagenes.icocard9 = icocard9
+
+import icocard10 from './footer-mir.svg'
+imagenes.icocard10 = icocard10
+
+import icocard11 from './footer-generic.svg'
+imagenes.icocard11 = icocard11
+
+import icocard12 from './footer-unionpay.svg'
+imagenes.icocard12 = icocard12
+
+import icocard13 from './footer-discover.svg'
+imagenes.icocard13 = icocard13
 
 
 

@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: rgb(76, 78, 68)
+  background-color: rgb(76, 172, 201)
 }
 
 footer{
@@ -15,36 +15,20 @@ footer{
 }
 
 .footer-social-media{
-  background-color: green;
   text-align: center;
 }
 
 .footer-social-media img{
-  width: 10%;
-  height: auto;
+  width: 5%;
 }
 
 .footer-lista-horizontal {
-  list-style: none;
   display: flex;
   justify-content: center;
-  background-color: blue;
+  width: 100%;
 
 }
-
-.footer-lista-horizontal li {
-  display: flex;
-  background-color: blue;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-.footer-lista-horizontal li img {
-  background-color: blue;
-  width: 50%;
-  height: auto;
-  border-radius: 5%;
-  padding: 20px;
+.footer-lista-horizontal img{
+  width: 7%;
+  margin: 0px 2px;
 }
