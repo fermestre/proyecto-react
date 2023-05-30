@@ -63,6 +63,70 @@ export const Bodygrid = () => {
         <button>Añadir al carrito</button>
       </figure>
 
+      <figure className="product-item">
+        <p>5.00 ⭐</p>
+        <img src={imagenes.producto1} alt="Product 1"/>
+        <figcaption>Producto 1</figcaption>
+        <p>$500.000</p>
+        <button>Añadir al carrito</button>
+      </figure>
+
+      <figure className="product-item">
+        <p>5.00 ⭐</p>
+        <img src={imagenes.producto1} alt="Product 1"/>
+        <figcaption>Producto 1</figcaption>
+        <p>$500.000</p>
+        <button>Añadir al carrito</button>
+      </figure>
+
+      <figure className="product-item">
+        <p>5.00 ⭐</p>
+        <img src={imagenes.producto1} alt="Product 1"/>
+        <figcaption>Producto 1</figcaption>
+        <p>$500.000</p>
+        <button>Añadir al carrito</button>
+      </figure>
+
+      <figure className="product-item">
+        <p>5.00 ⭐</p>
+        <img src={imagenes.producto1} alt="Product 1"/>
+        <figcaption>Producto 1</figcaption>
+        <p>$500.000</p>
+        <button>Añadir al carrito</button>
+      </figure>
+
+      <figure className="product-item">
+        <p>5.00 ⭐</p>
+        <img src={imagenes.producto1} alt="Product 1"/>
+        <figcaption>Producto 1</figcaption>
+        <p>$500.000</p>
+        <button>Añadir al carrito</button>
+      </figure>
+
+      <figure className="product-item">
+        <p>5.00 ⭐</p>
+        <img src={imagenes.producto1} alt="Product 1"/>
+        <figcaption>Producto 1</figcaption>
+        <p>$500.000</p>
+        <button>Añadir al carrito</button>
+      </figure>
+
+      <figure className="product-item">
+        <p>5.00 ⭐</p>
+        <img src={imagenes.producto1} alt="Product 1"/>
+        <figcaption>Producto 1</figcaption>
+        <p>$500.000</p>
+        <button>Añadir al carrito</button>
+      </figure>
+
+      <figure className="product-item">
+        <p>5.00 ⭐</p>
+        <img src={imagenes.producto1} alt="Product 1"/>
+        <figcaption>Producto 1</figcaption>
+        <p>$500.000</p>
+        <button>Añadir al carrito</button>
+      </figure>
+
 
 
     </article>
