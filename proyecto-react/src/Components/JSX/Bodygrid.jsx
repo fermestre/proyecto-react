@@ -8,24 +8,25 @@ export const Bodygrid = () => {
   return (
 
     <React.Fragment>
-      <h1>NOMBRE DE LA TIENDA: MUSIC</h1>
+      <div className="bodygrid-globalcontainer">
+      <h1>La Cuerda Mágica</h1>
     <section className="product-container">
     <aside className="filters">
       <article className="filter-box">
         <h3>Filtros:</h3>
         <ul id='list1'>
-          <li><input type="checkbox" name="#" id="#"/>Categoria 1</li>
-          <li><input type="checkbox" name="#" id="#"/>Categoria 2</li>
-          <li><input type="checkbox" name="#" id="#"/>Categoria 3</li>
-          <li><input type="checkbox" name="#" id="#"/>Categoria 4</li>
-          <li><input type="checkbox" name="#" id="#"/>Categoria 5</li>
+          <li><input type="checkbox" name="#" id="#"/> Categoria 1</li>
+          <li><input type="checkbox" name="#" id="#"/> Categoria 2</li>
+          <li><input type="checkbox" name="#" id="#"/> Categoria 3</li>
+          <li><input type="checkbox" name="#" id="#"/> Categoria 4</li>
+          <li><input type="checkbox" name="#" id="#"/> Categoria 5</li>
         </ul>
         <ul id='list2'>
-          <li><input type="checkbox" name="#" id="#"/>Categoria 1</li>
-          <li><input type="checkbox" name="#" id="#"/>Categoria 2</li>
-          <li><input type="checkbox" name="#" id="#"/>Categoria 3</li>
-          <li><input type="checkbox" name="#" id="#"/>Categoria 4</li>
-          <li><input type="checkbox" name="#" id="#"/>Categoria 5</li>
+          <li><input type="checkbox" name="#" id="#"/> Categoria 1</li>
+          <li><input type="checkbox" name="#" id="#"/> Categoria 2</li>
+          <li><input type="checkbox" name="#" id="#"/> Categoria 3</li>
+          <li><input type="checkbox" name="#" id="#"/> Categoria 4</li>
+          <li><input type="checkbox" name="#" id="#"/> Categoria 5</li>
         </ul>
       </article>
     </aside>
@@ -63,7 +64,7 @@ export const Bodygrid = () => {
         <button>Añadir al carrito</button>
       </figure>
 
-      <figure className="product-item">
+       <figure className="product-item">
         <p>5.00 ⭐</p>
         <img src={imagenes.producto1} alt="Product 1"/>
         <figcaption>Producto 1</figcaption>
@@ -125,7 +126,7 @@ export const Bodygrid = () => {
         <figcaption>Producto 1</figcaption>
         <p>$500.000</p>
         <button>Añadir al carrito</button>
-      </figure>
+      </figure> 
 
 
 
@@ -144,6 +145,7 @@ export const Bodygrid = () => {
     <a href="#">Siguiente</a>
 
   </section>
+  </div>
 
 </React.Fragment>
 

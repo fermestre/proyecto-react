@@ -7,10 +7,10 @@ import { Creditcard } from "./Creditcard.jsx";
 export const Check = () => {
   return (
 
-    <React.Fragment>
+    <>
    
 
-
+<div className="globalcontainercheck">
    <h1>CARRITO DE COMPRAS</h1>
 <section className="product-container2">
   <article className="product-grid2">
@@ -96,7 +96,7 @@ export const Check = () => {
     </figure>
 
 
-
+   
   </article>
   <aside>
    
@@ -104,9 +104,9 @@ export const Check = () => {
 
   </aside>
 </section>
-
+</div>
   
-</React.Fragment>
+</>
 
  
 

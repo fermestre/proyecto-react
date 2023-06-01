@@ -1,7 +1,6 @@
 import React from "react"
 import imagenes from "../Images/Imagenes.jsx";
 import "../Styles/Creditcard.css"
-import "../JS/creditcard.js"
 
 
 export const Creditcard = () => {

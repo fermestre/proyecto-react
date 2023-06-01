@@ -1,21 +1,39 @@
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
+
+.bodygrid-globalcontainer{
+  background-image: linear-gradient(0deg,
+  rgba(0, 0, 0, 0.6),
+  rgba(0, 0, 0, 0.6)),
+  url(../Images/prueba22.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.bodygrid-globalcontainer h1{
   text-align: center;
   font-weight: bold;
-  font-size: 3rem;
-  color: #D95252;
+  font-size: 4rem;
+  color: #ffffff;
+ 
+  width: 100%;
+  font-family: 'Ballet', cursive;
+  word-spacing: 12px;
 }
 
 h3{
-  color: #D95252;
+  color: #ffffff;
+  font-weight: bold;
 }
 #list1{
   padding-bottom: 10px;
-  border-bottom: solid 2px #918b8b;
+  border-bottom: solid 2px #b9b0b0;
 }
 
 #list2{
   padding-top: 10px;
 }
+
 .product-container {
   display: grid;
   grid-template-columns: 200px 1fr;
@@ -23,6 +41,14 @@ h3{
     "filters products";
   grid-gap: 20px;
   width: 100%;
+  color: #ffffff;
+  background-image: linear-gradient(0deg,
+  rgba(0, 0, 0, 0.6),
+  rgba(0, 0, 0, 0.6)),
+  url(../Images/prueba22.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
 
 }
 
@@ -67,8 +93,8 @@ h3{
 
 
 .product-item button {
-  background-color:#038C7F;
-  color: #000000;
+  background-color:#580f0e;
+  color: #ffffff;
   border: #ccc;
   padding: 8px 16px;
   text-align: center;
@@ -83,20 +109,19 @@ h3{
 
 
 
-.navigation {
+ .navigation {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: transparent;
   width: 100%;
 }
 
 .navigation a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   margin: 0 4px;
-  background-color: #038C7F;
-}
+  background-color: #580f0e;
+}  

@@ -1,25 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import {App} from './App.jsx'
-import {Footer} from './Components/JSX/Footer.jsx'
-import {Bodygrid} from './Components/JSX/Bodygrid.jsx'
-import {Check} from './Components/JSX/Check.jsx'
-import { Creditcard } from './Components/JSX/Creditcard.jsx'
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
 
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-<React.Fragment>
+ReactDOM.createRoot(document.getElementById('root'))
+.render(
 
-{/* <App/>
-<Bodygrid/> */}
-<Check/> 
-{/* <Footer/>   */}
+
+  
+<App /> 
 
 
 
 
-
-</React.Fragment>
 
 )

@@ -23,7 +23,6 @@ export const Footer = () => {
 
         </nav>
 
-        
         <figure className='footer-lista-horizontal'>
           <img src={imagenes.icocard1} alt="Method: Paypal" title="Tarjeta Paypal"/>
           <img src={imagenes.icocard2} alt="Method: Mastercard" title="Tarjeta Mastercard"/>
@@ -39,7 +38,6 @@ export const Footer = () => {
           <img src={imagenes.icocard12} alt="Method: UnionPay" title="Tarjeta UnionPay"/>
           <img src={imagenes.icocard13} alt="Method: Discover" title="Tarjeta Discover"/>
         </figure>
-
   </footer>
 
   )
