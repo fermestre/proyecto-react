@@ -7,9 +7,12 @@ import "../Styles/Bodygrid.css"
 
 export const Bodygrid = () => {
 
-  const [showUkelele, setShowUkelele] = useState(false);
-  const [showGuitarraA, setShowGuitarraA] = useState(false);
-  const [showGuitarraE, setShowGuitarraE] = useState(false);
+  
+  
+  const [showUkelele, setShowUkelele] = useState(true);
+  const [showGuitarraA, setShowGuitarraA] = useState(true);
+  const [showGuitarraE, setShowGuitarraE] = useState(true);
+  
 
   const handleUkeleleToggle = () => {
     setShowUkelele(!showUkelele);
@@ -94,6 +97,8 @@ export const Bodygrid = () => {
 
 
     <article className="product-grid">
+ 
+
         
     {showGuitarraA && (
       <figure className="product-item" name="guitarraacustica" >
@@ -104,6 +109,7 @@ export const Bodygrid = () => {
         <button>Añadir al carrito</button>
       </figure>
     )}
+
 
 {showGuitarraA && (
       <figure className="product-item" name="guitarraacustica">
@@ -123,6 +129,7 @@ export const Bodygrid = () => {
         <button>Añadir al carrito</button>
       </figure>
  )}
+ 
       {showGuitarraA && (
       <figure className="product-item" name="guitarraacustica">
         <p>5.00 ⭐</p>
