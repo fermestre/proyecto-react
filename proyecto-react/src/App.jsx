@@ -1,4 +1,3 @@
-
 import {useState} from "react"
 import {Footer} from "./Components/JSX/Footer.jsx"
 import {Bodygrid} from "./Components/JSX/Bodygrid.jsx"
@@ -12,7 +11,12 @@ import Navbar from "./Components/JSX/Navbar.jsx"
 
 function App (){
 
-  const [user,setUser] = useState([])
+  const [user,setUser] = useState([]);
+  const [addedProducts, setAddedProducts] = useState([]);
+
+  const handleAddProduct = (product) => {
+    setAddedProducts([...addedProducts, product]);
+  };
 
   return(
 
@@ -21,7 +25,7 @@ function App (){
        {
         !user.length > 0
         ? <Login setUser = {setUser} />
-        : <> <Navbar/><Bodygrid  user={user} setUser={setUser}/> <Footer/>  </>
+        : <> <Navbar addedProducts={addedProducts} /><Bodygrid onAddProduct={handleAddProduct} user={user} setUser={setUser}/> <Footer/>  </>
       } 
 
 

@@ -47,7 +47,7 @@ imagenes.producto8 = producto8;
 
 // Guitarras electricas Fender
 
-import producto9 from './ukelele-uno.jpg';
+import producto9 from './ukele-uno.jpg';
 imagenes.producto9 = producto9;
 
 import producto10 from './ukelele-dos.jpg';

@@ -4,7 +4,17 @@ import "../Styles/Bodygrid.css"
 
 
 
-export const Bodygrid = () => {
+export const Bodygrid = ({onAddProduct}) => {
+
+    const handleBuyButtonClick = (productName, productImage) => {
+      const product = {
+        name: productName,
+        image: productImage,
+      };
+      onAddProduct(product);
+    };
+
+
   return (
 
     <React.Fragment>
@@ -40,7 +50,7 @@ export const Bodygrid = () => {
         <img src={imagenes.producto1} alt="Product 1"/>
         <figcaption>Producto 1</figcaption>
         <p>$500.000</p>
-        <button>Añadir al carrito</button>
+        <button onClick={() => handleBuyButtonClick("Producto 1", imagenes.producto1)}> Añadir al carrito</button>
       </figure>
 
       <figure className="product-item">
@@ -48,7 +58,7 @@ export const Bodygrid = () => {
         <img src={imagenes.producto1} alt="Product 1"/>
         <figcaption>Producto 2</figcaption>
         <p>$500.000</p>
-        <button>Añadir al carrito</button>
+        <button onClick={() => handleBuyButtonClick("Producto 2", imagenes.producto2)}> Añadir al carrito</button>
       </figure>
 
       <figure className="product-item">
@@ -56,7 +66,7 @@ export const Bodygrid = () => {
         <img src={imagenes.producto1} alt="Product 1"/>
         <figcaption>Producto 3</figcaption>
         <p>$500.000</p>
-        <button>Añadir al carrito</button>
+        <button onClick={() => handleBuyButtonClick("Producto 3", imagenes.producto3)}> Añadir al carrito</button>
       </figure>
 
       <figure className="product-item">
@@ -64,7 +74,7 @@ export const Bodygrid = () => {
         <img src={imagenes.producto1} alt="Product 1"/>
         <figcaption>Producto 4</figcaption>
         <p>$500.000</p>
-        <button>Añadir al carrito</button>
+        <button onClick={() => handleBuyButtonClick("Producto 4", imagenes.producto4)}>Añadir al carrito</button>
       </figure>
 
 
