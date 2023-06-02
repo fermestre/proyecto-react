@@ -23,6 +23,20 @@ export const Bodygrid = () => {
     setShowGuitarraE(!showGuitarraE);
   };
 
+
+// La funcion del boton mostraba la misma imagen para todos, y no añadia nada
+{/* <button onClick={() => handleBuyButtonClick("Producto 3", imagenes.producto3)}> Añadir al carrito</button> */}
+
+
+// Está por ahora está en Comment, pero funciona sin problema
+
+  // const handleBuyButtonClick = (productName, productImage) => {
+  //   const product = {
+  //     name: productName,
+  //     image: productImage,
+  //   };
+  //   onAddProduct(product);
+  // };
   
 
   return (
@@ -84,7 +98,7 @@ export const Bodygrid = () => {
     {showGuitarraA && (
       <figure className="product-item" name="guitarraacustica" >
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto1} alt="Product 4"/>
+        <img src={imagenes.producto1} alt="Product 1"/>
         <figcaption>Fender CD-60S</figcaption>
         <p>$1.200.000</p>
         <button>Añadir al carrito</button>
@@ -94,7 +108,7 @@ export const Bodygrid = () => {
 {showGuitarraA && (
       <figure className="product-item" name="guitarraacustica">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto2} alt="Product 4"/>
+        <img src={imagenes.producto2} alt="Product 2"/>
         <figcaption>Fender Tim Armstrong Hell</figcaption>
         <p>$2.500.000</p>
         <button>Añadir al carrito</button>
@@ -103,7 +117,7 @@ export const Bodygrid = () => {
  {showGuitarraA && (
       <figure className="product-item" name="guitarraacustica">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto3} alt="Product 4"/>
+        <img src={imagenes.producto3} alt="Product 3"/>
         <figcaption>Fender LE PO-220E Orch.</figcaption>
         <p>$3.965.000</p>
         <button>Añadir al carrito</button>
@@ -122,7 +136,7 @@ export const Bodygrid = () => {
 {showGuitarraE && (
       <figure className="product-item">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto5} alt="Product 1"/>
+        <img src={imagenes.producto5} alt="Product 5"/>
         <figcaption>Player Stratocaster® HSS</figcaption>
         <p>$4.220.000</p>
         <button>Añadir al carrito</button>
@@ -131,7 +145,7 @@ export const Bodygrid = () => {
      {showGuitarraE && (
       <figure className="product-item">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto6} alt="Product 1"/>
+        <img src={imagenes.producto6} alt="Product 6"/>
         <figcaption>Player + Stratocaster® HSS</figcaption>
         <p>$5.600.000</p>
         <button>Añadir al carrito</button>
@@ -141,7 +155,7 @@ export const Bodygrid = () => {
       {showGuitarraE && (
       <figure className="product-item">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto7} alt="Product 1"/>
+        <img src={imagenes.producto7} alt="Product 7"/>
         <figcaption>Landau Stratocaster®</figcaption>
         <p>$14.350.000</p>
         <button>Añadir al carrito</button>
@@ -151,7 +165,7 @@ export const Bodygrid = () => {
  {showGuitarraE && (
       <figure className="product-item">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto8} alt="Product 1"/>
+        <img src={imagenes.producto8} alt="Product 8"/>
         <figcaption>Tash Sultana Stratocaster®</figcaption>
         <p>$7.050.000</p>
         <button>Añadir al carrito</button>
@@ -206,7 +220,7 @@ export const Bodygrid = () => {
  {showGuitarraA && (
       <figure className="product-item">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto13} alt="Product 1"/>
+        <img src={imagenes.producto13} alt="Product 13"/>
         <figcaption>Yamaha STORIA I</figcaption>
         <p>$300.000</p>
         <button>Añadir al carrito</button>
@@ -215,7 +229,7 @@ export const Bodygrid = () => {
        {showGuitarraA && (
       <figure className="product-item">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto14} alt="Product 1"/>
+        <img src={imagenes.producto14} alt="Product 14"/>
         <figcaption>Yamaha C40</figcaption>
         <p>$600.000</p>
         <button>Añadir al carrito</button>
@@ -224,7 +238,7 @@ export const Bodygrid = () => {
       {showGuitarraA && (
       <figure className="product-item">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto15} alt="Product 1"/>
+        <img src={imagenes.producto15} alt="Product 15"/>
         <figcaption>Yamaha F370</figcaption>
         <p>$1.150.000</p>
         <button>Añadir al carrito</button>
@@ -234,7 +248,7 @@ export const Bodygrid = () => {
       {showGuitarraA && (
       <figure className="product-item">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto16} alt="Product 1"/>
+        <img src={imagenes.producto16} alt="Product 16"/>
         <figcaption>Yamaha Classic C-70</figcaption>
         <p>$500.000</p>
         <button onClick={() => handleBuyButtonClick("Producto 1", imagenes.producto1)}> Añadir al carrito</button>
@@ -243,9 +257,9 @@ export const Bodygrid = () => {
       {showGuitarraE && (
       <figure className="product-item">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto1} alt="Product 1"/>
-        <figcaption>Producto 2</figcaption>
-        <p>$500.000</p>
+        <img src={imagenes.producto17} alt="Product 17"/>
+        <figcaption>Yamaha Pacific J117</figcaption>
+        <p>$1.350.000</p>
         <button onClick={() => handleBuyButtonClick("Producto 2", imagenes.producto2)}> Añadir al carrito</button>
       </figure>
       )}
@@ -253,27 +267,27 @@ export const Bodygrid = () => {
       {showGuitarraE && (
       <figure className="product-item">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto1} alt="Product 1"/>
-        <figcaption>Producto 3</figcaption>
-        <p>$500.000</p>
-        <button onClick={() => handleBuyButtonClick("Producto 3", imagenes.producto3)}> Añadir al carrito</button>
+        <img src={imagenes.producto18} alt="Product 18"/>
+        <figcaption>Yamaha Pacific VXM</figcaption>
+        <p>$3.550.000</p>
+        <button> Añadir al carrito</button>
       </figure>
       )}
       
       {showGuitarraE && (
       <figure className="product-item">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto1} alt="Product 1"/>
-        <figcaption>Producto 4</figcaption>
-        <p>$500.000</p>
-        <button onClick={() => handleBuyButtonClick("Producto 4", imagenes.producto4)}>Añadir al carrito</button>
+        <img src={imagenes.producto19} alt="Product 19"/>
+        <figcaption>Yamaha Pacific 192VX</figcaption>
+        <p>$2.450.000</p>
+        <button>Añadir al carrito</button>
       </figure>
       )}
       
       {showGuitarraE && (
       <figure className="product-item">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto20} alt="Product 1"/>
+        <img src={imagenes.producto20} alt="Product 20"/>
         <figcaption>Yamaha Pacific 112J</figcaption>
         <p>$1.350.000</p>
         <button>Añadir al carrito</button>
