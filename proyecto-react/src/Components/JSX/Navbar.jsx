@@ -4,7 +4,7 @@ import "../Styles/Nav.css";
 import imagenes from "../Images/Imagenes.jsx";
 
 
-// Componente para el menú desplegable
+// la parte del Componente para el menú desplegable
 const DropdownMenu = () => {
   return (
     <ul className="dropdown-menu">
@@ -36,7 +36,7 @@ const Navbar = ({addedProducts}) => {
   const [isDropdownOpen2, setDropdownOpen2] = useState(false);
   const [isPopupVisible, setPopupVisible] = useState(false);
   const [showUserPopup, setShowUserPopup] = useState(false);
-  const [username, setUsername] = useState(`Custumer`); // El nombre de usuario actual
+  const [username, setUsername] = useState(`Custumer`); // the name de usuario actual
 
   const handleButtonClickbtn = () => {
     setShowUserPopup(true);
