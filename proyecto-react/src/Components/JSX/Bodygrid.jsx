@@ -237,36 +237,36 @@ export const Bodygrid = () => {
         <img src={imagenes.producto16} alt="Product 1"/>
         <figcaption>Yamaha Classic C-70</figcaption>
         <p>$500.000</p>
-        <button>Añadir al carrito</button>
+        <button onClick={() => handleBuyButtonClick("Producto 1", imagenes.producto1)}> Añadir al carrito</button>
       </figure>
       )}
       {showGuitarraE && (
       <figure className="product-item">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto17} alt="Product 1"/>
-        <figcaption>Yamaha Pacific 112VM</figcaption>
-        <p>$1.600.000</p>
-        <button>Yamaha Pacific 112J</button>
-      </figure>
-      )}
-      
-      {showGuitarraE && (
-      <figure className="product-item">
-        <p>5.00 ⭐</p>
-        <img src={imagenes.producto18} alt="Product 1"/>
-        <figcaption>Yamaha Pacific 012</figcaption>
-        <p>$1.000.000</p>
-        <button>Añadir al carrito</button>
+        <img src={imagenes.producto1} alt="Product 1"/>
+        <figcaption>Producto 2</figcaption>
+        <p>$500.000</p>
+        <button onClick={() => handleBuyButtonClick("Producto 2", imagenes.producto2)}> Añadir al carrito</button>
       </figure>
       )}
       
       {showGuitarraE && (
       <figure className="product-item">
         <p>5.00 ⭐</p>
-        <img src={imagenes.producto19} alt="Product 1"/>
-        <figcaption>Yamaha Pacific 120H</figcaption>
-        <p>$1.400.000</p>
-        <button>Añadir al carrito</button>
+        <img src={imagenes.producto1} alt="Product 1"/>
+        <figcaption>Producto 3</figcaption>
+        <p>$500.000</p>
+        <button onClick={() => handleBuyButtonClick("Producto 3", imagenes.producto3)}> Añadir al carrito</button>
+      </figure>
+      )}
+      
+      {showGuitarraE && (
+      <figure className="product-item">
+        <p>5.00 ⭐</p>
+        <img src={imagenes.producto1} alt="Product 1"/>
+        <figcaption>Producto 4</figcaption>
+        <p>$500.000</p>
+        <button onClick={() => handleBuyButtonClick("Producto 4", imagenes.producto4)}>Añadir al carrito</button>
       </figure>
       )}
       

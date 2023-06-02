@@ -4,7 +4,7 @@ import "../Styles/Nav.css";
 import imagenes from "../Images/Imagenes.jsx";
 
 
-// Componente para el menú desplegable
+// la parte del Componente para el menú desplegable
 const DropdownMenu = () => {
   return (
     <ul className="dropdown-menu">
@@ -28,22 +28,15 @@ const DropdownMenu2 = () => {
   );
 };
 
-const UserPopup = ({ username, onClose }) => {
-  return (
-    <div className="user-popup">
-      <h2>Bienvenido, {username}!</h2>
-      <button onClick={onClose}>Cerrar sesión</button>
-    </div>
-  );
-};
+
 
 // Componente para la barra de navegación
-const Navbar = () => {
+const Navbar = ({addedProducts}) => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   const [isDropdownOpen2, setDropdownOpen2] = useState(false);
   const [isPopupVisible, setPopupVisible] = useState(false);
   const [showUserPopup, setShowUserPopup] = useState(false);
-  const [username, setUsername] = useState(`Custumer`); // El nombre de usuario actual
+  const [username, setUsername] = useState(`Custumer`); // the name de usuario actual
 
   const handleButtonClickbtn = () => {
     setShowUserPopup(true);
@@ -65,6 +58,18 @@ const Navbar = () => {
     setPopupVisible(!isPopupVisible);
   }
 
+  const UserPopup = ({ username, onClose }) => {
+    const handleLogout = () => {
+      onClose();
+    };
+    return (
+      <div className="user-popup">
+        <h2>Bienvenido, {username}!</h2>
+        <button onClick={handleLogout}>Cerrar sesión</button>
+      </div>
+    );
+  };
+
   return (
     <>
      {/* <LoginPopup />  */}
@@ -81,7 +86,6 @@ const Navbar = () => {
       <div className="profile-img">
         <button onClick={handleButtonClickbtn}>
         {showUserPopup && <UserPopup username={username} onClose={handleClosePopup} />}
-        {handleClosePopup && UserPopup}
           <img className="logo-profile" src={imagenes.login} alt="logo-profile"></img>
         </button>
       </div>
@@ -99,12 +103,17 @@ const Navbar = () => {
           {isPopupVisible && 
           <div className="popup">
             <div className="popup-content">
-              <h2 className="title-popup"> Item BOUGHT</h2>
+            {addedProducts.map((product, index) => (
+            <div className="popup-content" key={index}>
+                <img className="img-popup" src={product.image} alt={product.name} />
+                <p className="titlle-popup">{product.name}</p>
+                <button> Buy Now </button>
+                <button> Cancel </button>
+            </div>))}
+              {/* <h2 className="title-popup"> Item BOUGHT</h2>
               <div>
                 <img className="img-popup" src={imagenes.drum} alt="item-scart"></img>
-              </div>
-              <button> Buy Now </button>
-              <button> Cancel </button>
+              </div> */}   
             </div>
           </div>}
         </button>
