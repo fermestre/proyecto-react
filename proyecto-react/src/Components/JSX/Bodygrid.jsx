@@ -15,18 +15,21 @@ export const Bodygrid = () => {
       <article className="filter-box">
         <h3>Filtros:</h3>
         <ul id='list1'>
-          <li><input type="checkbox" name="#" id="#"/> Categoria 1</li>
-          <li><input type="checkbox" name="#" id="#"/> Categoria 2</li>
-          <li><input type="checkbox" name="#" id="#"/> Categoria 3</li>
-          <li><input type="checkbox" name="#" id="#"/> Categoria 4</li>
-          <li><input type="checkbox" name="#" id="#"/> Categoria 5</li>
+          <li><input type="checkbox" name="#" id="#"/> Bateria</li>
+          <li><input type="checkbox" name="#" id="#"/> Viola y Violin</li>
+          <li><input type="checkbox" name="#" id="#"/> Piano y teclado</li>
+          <li><input type="checkbox" name="#" id="#"/> Guitarra acustica</li>
+          <li><input type="checkbox" name="#" id="#"/> Guitarra electrica</li>
+
         </ul>
         <ul id='list2'>
-          <li><input type="checkbox" name="#" id="#"/> Categoria 1</li>
-          <li><input type="checkbox" name="#" id="#"/> Categoria 2</li>
-          <li><input type="checkbox" name="#" id="#"/> Categoria 3</li>
-          <li><input type="checkbox" name="#" id="#"/> Categoria 4</li>
-          <li><input type="checkbox" name="#" id="#"/> Categoria 5</li>
+        <li><input type="checkbox" name="#" id="#"/> Rojo</li>
+          <li><input type="checkbox" name="#" id="#"/> Rosa</li>
+          
+          <li><input type="checkbox" name="#" id="#"/> Negro</li>
+          <li><input type="checkbox" name="#" id="#"/> Blanco</li>
+          <li><input type="checkbox" name="#" id="#"/> Morado</li>
+
         </ul>
       </article>
     </aside>
@@ -64,69 +67,7 @@ export const Bodygrid = () => {
         <button>Añadir al carrito</button>
       </figure>
 
-       <figure className="product-item">
-        <p>5.00 ⭐</p>
-        <img src={imagenes.producto1} alt="Product 1"/>
-        <figcaption>Producto 1</figcaption>
-        <p>$500.000</p>
-        <button>Añadir al carrito</button>
-      </figure>
 
-      <figure className="product-item">
-        <p>5.00 ⭐</p>
-        <img src={imagenes.producto1} alt="Product 1"/>
-        <figcaption>Producto 1</figcaption>
-        <p>$500.000</p>
-        <button>Añadir al carrito</button>
-      </figure>
-
-      <figure className="product-item">
-        <p>5.00 ⭐</p>
-        <img src={imagenes.producto1} alt="Product 1"/>
-        <figcaption>Producto 1</figcaption>
-        <p>$500.000</p>
-        <button>Añadir al carrito</button>
-      </figure>
-
-      <figure className="product-item">
-        <p>5.00 ⭐</p>
-        <img src={imagenes.producto1} alt="Product 1"/>
-        <figcaption>Producto 1</figcaption>
-        <p>$500.000</p>
-        <button>Añadir al carrito</button>
-      </figure>
-
-      <figure className="product-item">
-        <p>5.00 ⭐</p>
-        <img src={imagenes.producto1} alt="Product 1"/>
-        <figcaption>Producto 1</figcaption>
-        <p>$500.000</p>
-        <button>Añadir al carrito</button>
-      </figure>
-
-      <figure className="product-item">
-        <p>5.00 ⭐</p>
-        <img src={imagenes.producto1} alt="Product 1"/>
-        <figcaption>Producto 1</figcaption>
-        <p>$500.000</p>
-        <button>Añadir al carrito</button>
-      </figure>
-
-      <figure className="product-item">
-        <p>5.00 ⭐</p>
-        <img src={imagenes.producto1} alt="Product 1"/>
-        <figcaption>Producto 1</figcaption>
-        <p>$500.000</p>
-        <button>Añadir al carrito</button>
-      </figure>
-
-      <figure className="product-item">
-        <p>5.00 ⭐</p>
-        <img src={imagenes.producto1} alt="Product 1"/>
-        <figcaption>Producto 1</figcaption>
-        <p>$500.000</p>
-        <button>Añadir al carrito</button>
-      </figure> 
 
 
 
