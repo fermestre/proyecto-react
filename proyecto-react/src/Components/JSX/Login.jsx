@@ -3,7 +3,6 @@ import imagenes from "../Images/Imagenes.jsx";
 import "../Styles/Login.css"
 
 
-
 export const Login = ({setUser}) => {
 
   const [show,setShow] = useState(false);

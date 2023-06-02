@@ -2,6 +2,27 @@ const imagenes = {};
 
 // Agregar imágenes
 
+// NAV
+
+
+import imglogo from './nav-logo.png';
+imagenes.imglogo = imglogo;
+
+import imgcart from './nav-shoppingcart.png';
+imagenes.imgcart = imgcart;
+
+import drum from './nav-drum.png';
+imagenes.drum = drum;
+
+import login from './nav-login.png';
+imagenes.login = login;
+
+
+
+
+
+// NAV
+
 
 import producto1 from './prueba1.jpg';
 imagenes.producto1 = producto1;

@@ -17,7 +17,7 @@
   align-items: center;
   padding:25px;
   min-height: 100vh;
-  background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+  background: linear-gradient(90deg, #86463f 60%, #703530 40.1%);
 }
 
 .container form{
@@ -96,6 +96,6 @@
 
 .col h3{
   text-align: center;
-  border: solid 1.5px #2ecc71;
+  border: solid 1.5px #86463f;
 }
  

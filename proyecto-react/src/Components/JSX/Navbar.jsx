@@ -1,21 +1,19 @@
-import { useState } from 'react';
-import './App.css';
-import {imglogo} from '../public/music.png'
-import {imgcart} from '../public/shopping-cart.png'
-import {drum} from '../public/drum.png'
-import {login} from '../public/profile.png'
-import {LoginPopup} from './Login.jsx';
+import { useState } from "react";
+import "../Styles/Nav.css";
+// import LoginPopup from "./Login.jsx"
+import imagenes from "../Images/Imagenes.jsx";
+
 
 // Componente para el menú desplegable
 const DropdownMenu = () => {
   return (
     <ul className="dropdown-menu">
-      <a className='link-drop'>Acoustic</a>
-      <a className='link-drop'>Percussion</a>
-      <a className='link-drop'>Electric</a>
-      <a className='link-drop'>Keyboards</a>
-      <a className='link-drop'>Wind instruments</a>
-      <a className='link-drop'>Ensembles</a>
+      <a className="link-drop">Acoustic</a>
+      <a className="link-drop">Percussion</a>
+      <a className="link-drop">Electric</a>
+      <a className="link-drop">Keyboards</a>
+      <a className="link-drop">Wind instruments</a>
+      <a className="link-drop">Ensembles</a>
     </ul>
   );
 };
@@ -23,9 +21,9 @@ const DropdownMenu = () => {
 const DropdownMenu2 = () => {
   return (
     <ul className="dropdown-menu2">
-      <a className='link-drop'>Week give away</a>
-      <a className='link-drop'>month give away</a>
-      <a className='link-drop'>year give away</a>
+      <a className="link-drop">Week give away</a>
+      <a className="link-drop">month give away</a>
+      <a className="link-drop">year give away</a>
     </ul>
   );
 };
@@ -69,10 +67,10 @@ const Navbar = () => {
 
   return (
     <>
-    <LoginPopup />
+     {/* <LoginPopup />  */}
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={imglogo} alt="Logo" />
+        <img src={imagenes.imglogo} alt="Logo" />
       </div>
       <div className="navbar-search">
         <form>
@@ -80,11 +78,11 @@ const Navbar = () => {
           <button type="submit">Buscar</button>
         </form>
       </div>
-      <div className='profile-img'>
+      <div className="profile-img">
         <button onClick={handleButtonClickbtn}>
         {showUserPopup && <UserPopup username={username} onClose={handleClosePopup} />}
         {handleClosePopup && UserPopup}
-          <img className='logo-profile' src={login} alt='logo-profile'></img>
+          <img className="logo-profile" src={imagenes.login} alt="logo-profile"></img>
         </button>
       </div>
       <div className="navbar-menu">
@@ -97,13 +95,13 @@ const Navbar = () => {
           {isDropdownOpen2 && <DropdownMenu2 />}
         </button>  
         <button className="navbar-cart-button" onClick={handleButtonClick}>
-          <img className='btncar' src={imgcart} alt="btn car"></img>
+          <img className="btncar" src={imagenes.imgcart} alt="btn car"></img>
           {isPopupVisible && 
           <div className="popup">
             <div className="popup-content">
-              <h2 className='title-popup'> Item BOUGHT</h2>
+              <h2 className="title-popup"> Item BOUGHT</h2>
               <div>
-                <img className='img-popup' src={drum} alt='item-scart'></img>
+                <img className="img-popup" src={imagenes.drum} alt="item-scart"></img>
               </div>
               <button> Buy Now </button>
               <button> Cancel </button>

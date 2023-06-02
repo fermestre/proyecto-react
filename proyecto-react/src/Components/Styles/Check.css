@@ -2,7 +2,7 @@
   background-image: linear-gradient(0deg,
   rgba(0, 0, 0, 0.6),
   rgba(0, 0, 0, 0.6)),
-  url(../Images/prueba22.jpg);
+  url(../Images/bodygrid-background.jpg);
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
@@ -53,7 +53,7 @@
 
 
 .product-item2 button {
-  background-color:#038C7F;
+  background-color:#580f0e;
   color: #ffffff;
   border: #ccc;
   padding: 8px 16px;
