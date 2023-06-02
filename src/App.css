@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body{
+  font-family: 'Kanit', sans-serif;
+  background-color: #141C29;
+  padding-top: 80px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15%;
+  height: 70px;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+header h1{
+  text-align: center;
+  margin: 30px 30px;
+  color: #141C29;
+}
+
+header #icons{
+  filter: invert(100%);
+  height: auto; 
+  width: 45px;
+  margin: 30px 30px;
+  text-decoration: none;
+}
+
+header article{
+  border: black solid 1px;
+  border-radius: 30px;
+}
+
+header article:hover{
+  background-color: #141C29;
+  color: white;
+}
+
+.instrumentos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.instrumento{
+  margin: 1rem;
+  max-width: 400px;
+}
+
+.instrumento img{
+  width: 320px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.instrumento-info{
+  padding: 1rem;
+  font-size: 1.3rem;
+  box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.75);
+  background-color: #2D4263;
+  border-radius: 20px;
+}
+
+.instrumento-info:hover{
+  background-color: #11294d;
+}
+
+.instrumento-info p{
+  font-weight: 300;
+}
+
+.instrumento-info button{
+  background-color: #263143;
+  /* width: 10px; */
+  /* height: 35px; */
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  header{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .instrumentos{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .instrumento
+  {
+      width: 100%;
+  }
+}
