@@ -113,8 +113,7 @@ const Navbar = ({addedProducts}) => {
               {/* <h2 className="title-popup"> Item BOUGHT</h2>
               <div>
                 <img className="img-popup" src={imagenes.drum} alt="item-scart"></img>
-              </div> */}
-              
+              </div> */}   
             </div>
           </div>}
         </button>

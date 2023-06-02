@@ -14,7 +14,6 @@ export const Bodygrid = ({onAddProduct}) => {
       onAddProduct(product);
     };
 
-
   return (
 
     <React.Fragment>
