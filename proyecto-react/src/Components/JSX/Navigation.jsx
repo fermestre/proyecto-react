@@ -4,6 +4,7 @@ import '../Styles/Nav.css';
 import imagenes from "../Images/Imagenes.jsx";
 
 
+
 export const Navigation = () => {
 
   const Navbar = () => {

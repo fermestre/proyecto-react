@@ -30,6 +30,8 @@ const DropdownMenu2 = () => {
 
 
 
+
+
 // Componente para la barra de navegación
 const Navbar = ({addedProducts}) => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -70,12 +72,14 @@ const Navbar = ({addedProducts}) => {
     );
   };
 
+  
+
   return (
     <>
      {/* <LoginPopup />  */}
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={imagenes.imglogo} alt="Logo" />
+     <img src={imagenes.imglogo} alt="Logo" />
       </div>
       <div className="navbar-search">
         <form>

@@ -9,17 +9,17 @@ export const Footer = () => {
 
         <nav className='footer-social-media'>
 
-           <a href="#" target="_blank" rel="external"/><img src={imagenes.icogh} alt="GitHub icon"
-          title="Resitorio proyecto"/>
+           <a href="https://github.com/fermestre/proyecto-react" target="_blank" rel="external noreferrer"><img src={imagenes.icogh} alt="GitHub icon"
+          title="Repositorio proyecto"/></a>
 
-           <a href="#" target="_blank" rel="external"/><img src={imagenes.icofb}
-          alt="Facebook icon top" title="Facebook oficial"/>
+           <a href="https://facebook.com" target="_blank" rel="external noreferrer"><img src={imagenes.icofb}
+          alt="Facebook icon top" title="Facebook oficial"/></a>
 
-           <a href="#" target="_blank" rel="external"/><img src={imagenes.icoig}
-          alt="Instagram icon" title="Instagram oficial"/>
+           <a href="https://instagram.com" target="_blank" rel="external noreferrer"><img src={imagenes.icoig}
+          alt="Instagram icon" title="Instagram oficial"/></a>
 
-           <a href="#" target="_blank" rel="external"/><img src={imagenes.icotw}
-          alt="Twitter icon" title="Twitter oficial"/>
+           <a href="https://twitter.com" target="_blank" rel="external noreferrer"><img src={imagenes.icotw}
+          alt="Twitter icon" title="Twitter oficial"/></a>
 
         </nav>
 

@@ -4,7 +4,6 @@ import {Bodygrid} from "./Components/JSX/Bodygrid.jsx"
 import {Check} from "./Components/JSX/Check.jsx"
 import {Login} from  "./Components/JSX/Login.jsx"
 import Navbar from "./Components/JSX/Navbar.jsx"
-/* import {unsplash} from "../public/unsplash.jpg" */
 
 
 
@@ -28,7 +27,9 @@ function App (){
       } 
 
 
- <Check/>
+{/* <><Navbar/> <Check/> <Footer/> </> */}
+
+
   </>
   )
 }
