@@ -21,11 +21,11 @@ function App (){
        {
         !user.length > 0
         ? <Login setUser = {setUser} />
-        : <> <Navbar/> <Check  user={user} setUser={setUser} /> <Footer/>  </>
+        : <> <Navbar/> <Bodygrid  user={user} setUser={setUser} /> <Footer/>  </>
       } 
 
 
- <Bodygrid/>
+ <Check/>
   </>
   )
 }
